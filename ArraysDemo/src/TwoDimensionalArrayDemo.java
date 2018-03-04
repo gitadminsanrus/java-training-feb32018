@@ -73,6 +73,18 @@ public class TwoDimensionalArrayDemo
 								{75, 76, 77}, 
 								{80, 90}
 						    };
+		
+		//at first, we are navigating the array by row
+		for (int rowIndex = 0; rowIndex < studentMarks.length; rowIndex++) 
+		{
+			int[] studentRow = studentMarks[rowIndex];
+			
+			for (int columnIndex = 0; columnIndex < studentRow.length; columnIndex++)
+			{
+//				System.out.println(studentRow[columnIndex]);
+				System.out.println(studentMarks[rowIndex][columnIndex]);
+			}
+		}
 	
 	}
 
