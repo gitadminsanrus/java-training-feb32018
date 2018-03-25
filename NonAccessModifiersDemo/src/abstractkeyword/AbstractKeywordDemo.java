@@ -8,7 +8,7 @@ public class AbstractKeywordDemo {
 //		box.area();
 //		box.perimeter();
 		
-		Car car = new Car();
+//		Car car = new Car();
 
 	}
 
